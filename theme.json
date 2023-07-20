@@ -1,0 +1,383 @@
+{
+  "seed": "#1877F2",
+  "description": "TYPE: CUSTOM",
+  "coreColors": {
+    "primary": "#1877F2",
+    "secondary": "#135EBF",
+    "tertiary": "#0B3873",
+    "neutralVariant": "#919091"
+  },
+  "schemes": {
+    "light": {
+      "primary": "#005BC0",
+      "onPrimary": "#FFFFFF",
+      "primaryContainer": "#D8E2FF",
+      "onPrimaryContainer": "#001A41",
+      "primaryFixed": "#D8E2FF",
+      "onPrimaryFixed": "#001A41",
+      "primaryFixedDim": "#ADC6FF",
+      "onPrimaryFixedVariant": "#004493",
+      "secondary": "#0C5BBC",
+      "onSecondary": "#FFFFFF",
+      "secondaryContainer": "#D8E2FF",
+      "onSecondaryContainer": "#001A40",
+      "secondaryFixed": "#D8E2FF",
+      "onSecondaryFixed": "#001A40",
+      "secondaryFixedDim": "#ACC7FF",
+      "onSecondaryFixedVariant": "#004492",
+      "tertiary": "#2E5DA8",
+      "onTertiary": "#FFFFFF",
+      "tertiaryContainer": "#D7E2FF",
+      "onTertiaryContainer": "#001A40",
+      "tertiaryFixed": "#D7E2FF",
+      "onTertiaryFixed": "#001A40",
+      "tertiaryFixedDim": "#ACC7FF",
+      "onTertiaryFixedVariant": "#08458E",
+      "error": "#BA1A1A",
+      "onError": "#FFFFFF",
+      "errorContainer": "#FFDAD6",
+      "onErrorContainer": "#410002",
+      "outline": "#72787E",
+      "background": "#FEFBFF",
+      "onBackground": "#1B1B1F",
+      "surface": "#FAF9FD",
+      "onSurface": "#1B1B1F",
+      "surfaceVariant": "#DEE3EB",
+      "onSurfaceVariant": "#595F65",
+      "inverseSurface": "#303033",
+      "inverseOnSurface": "#F2F0F4",
+      "inversePrimary": "#ADC6FF",
+      "shadow": "#000000",
+      "surfaceTint": "#005BC0",
+      "outlineVariant": "#C2C7CE",
+      "scrim": "#000000",
+      "surfaceContainerHighest": "#E3E2E6",
+      "surfaceContainerHigh": "#E9E7EC",
+      "surfaceContainer": "#EFEDF1",
+      "surfaceContainerLow": "#F5F3F7",
+      "surfaceContainerLowest": "#FFFFFF",
+      "surfaceBright": "#FAF9FD",
+      "surfaceDim": "#DBD9DD"
+    },
+    "dark": {
+      "primary": "#ADC6FF",
+      "onPrimary": "#002E69",
+      "primaryContainer": "#004493",
+      "onPrimaryContainer": "#D8E2FF",
+      "primaryFixed": "#D8E2FF",
+      "onPrimaryFixed": "#001A41",
+      "primaryFixedDim": "#ADC6FF",
+      "onPrimaryFixedVariant": "#004493",
+      "secondary": "#ACC7FF",
+      "onSecondary": "#002E68",
+      "secondaryContainer": "#004492",
+      "onSecondaryContainer": "#D8E2FF",
+      "secondaryFixed": "#D8E2FF",
+      "onSecondaryFixed": "#001A40",
+      "secondaryFixedDim": "#ACC7FF",
+      "onSecondaryFixedVariant": "#004492",
+      "tertiary": "#ACC7FF",
+      "onTertiary": "#002F67",
+      "tertiaryContainer": "#08458E",
+      "onTertiaryContainer": "#D7E2FF",
+      "tertiaryFixed": "#D7E2FF",
+      "onTertiaryFixed": "#001A40",
+      "tertiaryFixedDim": "#ACC7FF",
+      "onTertiaryFixedVariant": "#08458E",
+      "error": "#FFB4AB",
+      "onError": "#690005",
+      "errorContainer": "#93000A",
+      "onErrorContainer": "#FFDAD6",
+      "outline": "#8C9198",
+      "background": "#1B1B1F",
+      "onBackground": "#E3E2E6",
+      "surface": "#121316",
+      "onSurface": "#E3E2E6",
+      "surfaceVariant": "#42474E",
+      "onSurfaceVariant": "#C2C7CE",
+      "inverseSurface": "#E3E2E6",
+      "inverseOnSurface": "#1B1B1F",
+      "inversePrimary": "#005BC0",
+      "shadow": "#000000",
+      "surfaceTint": "#ADC6FF",
+      "outlineVariant": "#42474E",
+      "scrim": "#000000",
+      "surfaceContainerHighest": "#343538",
+      "surfaceContainerHigh": "#292A2D",
+      "surfaceContainer": "#1F1F23",
+      "surfaceContainerLow": "#1B1B1F",
+      "surfaceContainerLowest": "#0D0E11",
+      "surfaceBright": "#38393C",
+      "surfaceDim": "#121316"
+    }
+  },
+  "palettes": {
+    "primary": {
+      "0": "#000000",
+      "5": "#00102D",
+      "10": "#001A41",
+      "20": "#002E69",
+      "25": "#00397E",
+      "30": "#004493",
+      "35": "#004FAA",
+      "40": "#005BC0",
+      "50": "#0B73EE",
+      "60": "#4B8EFF",
+      "70": "#80ABFF",
+      "80": "#ADC6FF",
+      "90": "#D8E2FF",
+      "95": "#EDF0FF",
+      "98": "#F9F9FF",
+      "99": "#FEFBFF",
+      "100": "#FFFFFF"
+    },
+    "secondary": {
+      "0": "#000000",
+      "5": "#00102C",
+      "10": "#001A40",
+      "20": "#002E68",
+      "25": "#00397D",
+      "30": "#004492",
+      "35": "#004FA8",
+      "40": "#0C5BBC",
+      "50": "#3775D7",
+      "60": "#568FF3",
+      "70": "#7FABFF",
+      "80": "#ACC7FF",
+      "90": "#D8E2FF",
+      "95": "#EDF0FF",
+      "98": "#F9F9FF",
+      "99": "#FEFBFF",
+      "100": "#FFFFFF"
+    },
+    "tertiary": {
+      "0": "#000000",
+      "5": "#00102C",
+      "10": "#001A40",
+      "20": "#002F67",
+      "25": "#00397B",
+      "30": "#08458E",
+      "35": "#1E519B",
+      "40": "#2E5DA8",
+      "50": "#4A76C2",
+      "60": "#6590DE",
+      "70": "#80ABFB",
+      "80": "#ACC7FF",
+      "90": "#D7E2FF",
+      "95": "#EDF0FF",
+      "98": "#F9F9FF",
+      "99": "#FEFBFF",
+      "100": "#FFFFFF"
+    },
+    "error": {
+      "0": "#000000",
+      "5": "#2D0001",
+      "10": "#410002",
+      "20": "#690005",
+      "25": "#7E0007",
+      "30": "#93000A",
+      "35": "#A80710",
+      "40": "#BA1A1A",
+      "50": "#DE3730",
+      "60": "#FF5449",
+      "70": "#FF897D",
+      "80": "#FFB4AB",
+      "90": "#FFDAD6",
+      "95": "#FFEDEA",
+      "98": "#FFF8F7",
+      "99": "#FFFBFF",
+      "100": "#FFFFFF"
+    },
+    "neutral": {
+      "0": "#000000",
+      "5": "#101114",
+      "10": "#1B1B1F",
+      "20": "#303033",
+      "25": "#3B3B3F",
+      "30": "#46464A",
+      "35": "#525256",
+      "40": "#5E5E62",
+      "50": "#77777A",
+      "60": "#919094",
+      "70": "#ABABAF",
+      "80": "#C7C6CA",
+      "90": "#E3E2E6",
+      "95": "#F2F0F4",
+      "98": "#FAF9FD",
+      "99": "#FEFBFF",
+      "100": "#FFFFFF"
+    },
+    "neutralVariant": {
+      "0": "#000000",
+      "5": "#0C1217",
+      "10": "#161C22",
+      "20": "#2B3137",
+      "25": "#363C42",
+      "30": "#42474E",
+      "35": "#4D5359",
+      "40": "#595F65",
+      "50": "#72787E",
+      "60": "#8C9198",
+      "70": "#A6ACB3",
+      "80": "#C2C7CE",
+      "90": "#DEE3EB",
+      "95": "#ECF1F9",
+      "98": "#F7F9FF",
+      "99": "#FCFCFF",
+      "100": "#FFFFFF"
+    }
+  },
+  "styles": {
+    "display": {
+      "large": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 57,
+        "lineHeight": 64,
+        "letterSpacing": -0.25
+      },
+      "medium": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 45,
+        "lineHeight": 52,
+        "letterSpacing": 0
+      },
+      "small": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 36,
+        "lineHeight": 44,
+        "letterSpacing": 0
+      }
+    },
+    "headline": {
+      "large": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 32,
+        "lineHeight": 40,
+        "letterSpacing": 0
+      },
+      "medium": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 28,
+        "lineHeight": 36,
+        "letterSpacing": 0
+      },
+      "small": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 24,
+        "lineHeight": 32,
+        "letterSpacing": 0
+      }
+    },
+    "body": {
+      "large": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": 0.5
+      },
+      "medium": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 14,
+        "lineHeight": 20,
+        "letterSpacing": 0.25
+      },
+      "small": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 12,
+        "lineHeight": 16,
+        "letterSpacing": 0.4000000059604645
+      }
+    },
+    "label": {
+      "large": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 14,
+        "lineHeight": 20,
+        "letterSpacing": 0.10000000149011612
+      },
+      "medium": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 12,
+        "lineHeight": 16,
+        "letterSpacing": 0.5
+      },
+      "small": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 11,
+        "lineHeight": 16,
+        "letterSpacing": 0.5
+      }
+    },
+    "title": {
+      "large": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Regular",
+        "fontWeight": 400,
+        "fontSize": 22,
+        "lineHeight": 28,
+        "letterSpacing": 0
+      },
+      "medium": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": 0.15000000596046448
+      },
+      "small": {
+        "fontFamilyName": "Roboto",
+        "fontFamilyStyle": "Medium",
+        "fontWeight": 500,
+        "fontSize": 14,
+        "lineHeight": 20,
+        "letterSpacing": 0.10000000149011612
+      }
+    }
+  },
+  "extendedColors": [
+    {
+      "harmonized": false,
+      "color": "#48D200",
+      "name": "Success",
+      "description": "undefined"
+    },
+    {
+      "harmonized": false,
+      "color": "#F1C21B",
+      "name": "Warning",
+      "description": "undefined"
+    },
+    {
+      "harmonized": false,
+      "color": "#0172CB",
+      "name": "Information",
+      "description": "undefined"
+    }
+  ],
+  "name": "M3"
+}
